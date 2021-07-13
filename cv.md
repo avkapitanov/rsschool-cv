@@ -7,3 +7,26 @@
 - Date of birth: 25 December 1988
 - Nationality: Russian
 - Email: avkapitanov@yandex.ru
+
+## Code example
+```
+const getSumOfMarks = (diary) => Object.values(diary).reduce((acc, mark) => acc + mark, 0);
+const son = ['first', 'second', 'third'];
+
+function whoseBicycle(diary1, diary2, diary3) {
+  const marks = [diary1, diary2, diary3].map((diary) => getSumOfMarks(diary));
+  const maxMark = Math.max(...marks);
+  const pos = marks.lastIndexOf(maxMark);
+  
+  return `I need to buy a bicycle for my ${son[pos]} son.`;
+}
+```
+
+##Work experience
+### LLC "Beehive" (11.2012 - present)
+- Development, support and modification websites and web applications;
+- Refactoring and debugging;
+- API integration with third-party services;
+
+### The Education Department of Murom District (06.2011 - 11.2012)
+- System Administrator
