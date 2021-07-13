@@ -8,6 +8,23 @@
 - Nationality: Russian
 - Email: avkapitanov@yandex.ru
 
+###Full-stack web developer. Current job stack:
+- Frontend: ES6+, React/Redux.
+- Backend: PHP.
+- Layout: html, CSS/Sass/SCSS, BEM.
+- Miscellaneous: Node, npm, webpack, gulp, babel, ESlint, Git.
+- CMS: Bitrix, Drupal, Joomla
+
+##Education
+### Murom Institute (affiliate) of Vladimir State University (2006-2011)
+Engineer
+
+##Personal qualities
+- Dependable
+- Result oriented
+- Motivated
+- Stress-proof
+  
 ## Code example
 ```
 const getSumOfMarks = (diary) => Object.values(diary).reduce((acc, mark) => acc + mark, 0);
