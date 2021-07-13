@@ -47,3 +47,12 @@ function whoseBicycle(diary1, diary2, diary3) {
 
 ### The Education Department of Murom District (06.2011 - 11.2012)
 - System Administrator
+
+### Courses:
+- https://htmlacademy.ru/profile/artkapitanov (Profession "React Developer")
+- https://ru.hexlet.io/u/artkap
+- https://dev.1c-bitrix.ru/learning/resume.php?ID=82555589-171565
+
+### Languages:
+- English - A2
+- Russian - Native
