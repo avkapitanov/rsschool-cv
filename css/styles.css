@@ -151,8 +151,13 @@ img {
   margin-bottom: 25px;
 }
 
+.cv-info-block__item:last-child .cv-info-block__item-content {
+  margin-bottom: 0;
+}
+
 .cv-info-block__item-date {
   font-weight: 600;
+  flex-shrink: 0;
   font-style: italic;
   color: #828282;
 }
