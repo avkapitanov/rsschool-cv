@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="./css/default.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
   <title>Artem Kapitanov CV</title>
 </head>
 <body>
@@ -14,21 +15,54 @@
   <div class="main-header__container container">
     <h1 class="main-header__title">Artem Kapitanov</h1>
     <p class="main-header__post">Full-stack web developer</p>
+    <nav class="main-header__nav main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a class="main-nav__link link" href="#about-me">About</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link link" href="#education">Education</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link link" href="#soft-skills">Soft skills</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link link" href="#work-experience">Work experience</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link link" href="#courses">Courses</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link link" href="#projects">Projects</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link link" href="#code-example">Code</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="main-header__toggle" type="button" aria-label="Открыть меню"></button>
   </div>
 </header>
 
 <main class="main-content">
   <div class="main-content__container container">
     <aside class="main-content__side-panel side-panel">
-      <img class="side-panel__avatar" src="https://avatars.githubusercontent.com/u/50493124?v=4" alt="Avatar">
-      <section class="side-panel__block">
-        <h3 class="side-panel__block-title">Contacts</h3>
-        <ul class="side-panel__block-list">
-          <li class="side-panel__block-list-item"><i class="side-panel__icon fas fa-phone-alt"></i><a class="side-panel__link" href="tel:+79040370968">+7 (904) 037-09-68</a></li>
-          <li class="side-panel__block-list-item"><i class="side-panel__icon fas fa-envelope"></i><a class="side-panel__link" href="mailto:avkapitanov@yandex.ru">avkapitanov@yandex.ru</a></li>
-          <li class="side-panel__block-list-item"><i class="side-panel__icon fab fa-telegram-plane"></i>@artkapitanov</li>
-          <li class="side-panel__block-list-item"><i class="side-panel__icon fab fa-github"></i>avkapitanov</li>
-        </ul>
+      <section class="side-panel__block side-panel__block--contacts">
+        <img class="side-panel__avatar" src="https://avatars.githubusercontent.com/u/50493124?v=4" alt="Avatar">
+        <div class="side-panel__block-text">
+          <h3 class="side-panel__block-title">Contacts</h3>
+          <ul class="side-panel__block-list">
+            <li class="side-panel__block-list-item">
+              <i class="side-panel__icon fas fa-phone-alt"></i><a class="side-panel__link" href="tel:+79040370968">+7
+              (904) 037-09-68</a></li>
+            <li class="side-panel__block-list-item">
+              <i class="side-panel__icon fas fa-envelope">&nbsp;</i><a class="side-panel__link" href="mailto:avkapitanov@yandex.ru">avkapitanov@yandex.ru</a>
+            </li>
+            <li class="side-panel__block-list-item"><i class="side-panel__icon fab fa-telegram-plane"></i>@artkapitanov
+            </li>
+            <li class="side-panel__block-list-item"><i class="side-panel__icon fab fa-github"></i>avkapitanov</li>
+          </ul>
+        </div>
       </section>
       <section class="side-panel__block">
         <h3 class="side-panel__block-title">Skills</h3>
@@ -56,26 +90,32 @@
     </aside>
 
     <div class="main-content__information">
-      <section class="main-content__cv-info-block cv-info-block">
+      <section class="main-content__cv-info-block cv-info-block" id="about-me">
         <h2 class="cv-info-block__title">About me</h2>
-        <p>A well-organized and outgoing full-stack web developer graduating in June 2011 with good communication and analytical skills, looking to develop a career as an front-end developer. I love to deliver first class results.</p>
+        <p>A well-organized and outgoing full-stack web developer graduating in June 2011 with good communication and
+          analytical skills, looking to develop a career as an front-end developer. I love to deliver first class
+          results.</p>
       </section>
 
-      <section class="main-content__cv-info-block cv-info-block">
+      <section class="main-content__cv-info-block cv-info-block" id="education">
         <h2 class="cv-info-block__title">Education</h2>
         <ul class="cv-info-block__list">
           <li class="cv-info-block__item">
             <div class="cv-info-block__item-content">
-              <h3 class="cv-info-block__item-content-title">Murom Institute (affiliate) of Vladimir State University</h3>
+              <h3 class="cv-info-block__item-content-title">Murom Institute (affiliate) of Vladimir State
+                University</h3>
               <ul class="cv-info-block__item-content-list">
-                <li class="cv-info-block__item-content-item">Engineer by profession "Computing Machines, Complexes, Systems and Networks"</li>
+                <li class="cv-info-block__item-content-item">Engineer by profession "Computing Machines, Complexes,
+                  Systems and Networks"
+                </li>
               </ul>
             </div>
             <div class="cv-info-block__item-date">2006 - 2011</div>
           </li>
           <li class="cv-info-block__item">
             <div class="cv-info-block__item-content">
-              <h3 class="cv-info-block__item-content-title">Murom Institute (affiliate) of Vladimir State University</h3>
+              <h3 class="cv-info-block__item-content-title">Murom Institute (affiliate) of Vladimir State
+                University</h3>
               <ul class="cv-info-block__item-content-list">
                 <li class="cv-info-block__item-content-item">Bachelor in "Informatics and computer engineering"</li>
               </ul>
@@ -85,7 +125,7 @@
         </ul>
       </section>
 
-      <section class="main-content__cv-info-block cv-info-block">
+      <section class="main-content__cv-info-block cv-info-block" id="soft-skills">
         <h2 class="cv-info-block__title">Soft skills</h2>
         <ul class="cv-info-block__list cv-info-block__list--marker">
           <li class="cv-info-block__item">Dependable</li>
@@ -96,7 +136,7 @@
         </ul>
       </section>
 
-      <section class="main-content__cv-info-block cv-info-block">
+      <section class="main-content__cv-info-block cv-info-block" id="work-experience">
         <h2 class="cv-info-block__title">Work experience</h2>
         <ul class="cv-info-block__list">
           <li class="cv-info-block__item">
@@ -124,11 +164,12 @@
         </ul>
       </section>
 
-      <section class="main-content__cv-info-block cv-info-block">
+      <section class="main-content__cv-info-block cv-info-block" id="courses">
         <h2 class="cv-info-block__title">Courses</h2>
         <ul class="cv-info-block__list cv-info-block__list--marker">
           <li class="cv-info-block__item">
-            <a class="cv-info-block__item-link" href="https://htmlacademy.ru/profile/artkapitanov">https://htmlacademy.ru/profile/artkapitanov (Profession "React Developer")</a>
+            <a class="cv-info-block__item-link" href="https://htmlacademy.ru/profile/artkapitanov">https://htmlacademy.ru/profile/artkapitanov
+              (Profession "React Developer")</a>
           </li>
           <li class="cv-info-block__item">
             <a class="cv-info-block__item-link" href="https://ru.hexlet.io/u/artkap">https://ru.hexlet.io/u/artkap</a>
@@ -139,20 +180,72 @@
         </ul>
       </section>
 
-      <section class="main-content__cv-info-block cv-info-block">
+      <section class="main-content__cv-info-block cv-info-block" id="projects">
+        <h2 class="cv-info-block__title">Projects</h2>
+
+        <ul class="project-list">
+          <li class="project-list__item">
+            <article class="project-list__item-info project-block">
+              <a class="project-block__link" href="https://avkapitanov.github.io/1192723-gllacy-27/" target="_blank">
+                <img class="project-block__img" src="./img/gllacy.jpg" alt="gllacy project preview">
+                <div class="project-block__description">
+                  <p class="project-block__techno">HTML, CSS, JS</p>
+                  <h3 class="project-block__title">
+                    Gllacy Shop
+                  </h3>
+                  <p class="project-block__desc">First training project, not responsive, just desktop.</p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="project-list__item">
+            <article class="project-list__item-info project-block">
+              <a class="project-block__link" href="https://avkapitanov.github.io/1192723-mishka-19/" target="_blank">
+                <img class="project-block__img" src="./img/mishka.jpg" alt="Mishka project preview">
+                <div class="project-block__description">
+                  <p class="project-block__techno">HTML, CSS, JS</p>
+                  <h3 class="project-block__title">
+                    Mishka
+                  </h3>
+                  <p class="project-block__desc">Second training project, made with BEM and Flexbox layout, responsive.</p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="project-list__item">
+            <article class="project-list__item-info project-block">
+              <a class="project-block__link" href="https://rolling-scopes-school.github.io/avkapitanov-JSFEPRESCHOOL/js-clock/" target="_blank">
+                <img class="project-block__img" src="./img/js_clock.jpg" alt="JS Clock project preview">
+                <div class="project-block__description">
+                  <p class="project-block__techno">HTML, CSS, JS</p>
+                  <h3 class="project-block__title">
+                    JS CLock
+                  </h3>
+                  <p class="project-block__desc">Analog clock with pie charts and current date.</p>
+                </div>
+              </a>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <section class="main-content__cv-info-block cv-info-block" id="code-example">
         <h2 class="cv-info-block__title">Code example</h2>
         <pre class="cv-info-block__code">
+          <code class="language-javascript">
   const getSumOfMarks = (diary) => Object.values(diary)
           .reduce((acc, mark) => acc + mark, 0);
   const son = ['first', 'second', 'third'];
 
   function whoseBicycle(diary1, diary2, diary3) {
-    const marks = [diary1, diary2, diary3].map((diary) => getSumOfMarks(diary));
+    const marks = [diary1, diary2, diary3]
+            .map((diary) => getSumOfMarks(diary));
     const maxMark = Math.max(...marks);
     const pos = marks.lastIndexOf(maxMark);
 
     return `I need to buy a bicycle for my ${son[pos]} son.`;
   }
+          </code>
         </pre>
       </section>
     </div>
@@ -173,5 +266,7 @@
   </div>
 </footer>
 
+<script src="./js/highlight.min.js"></script>
+<script src="./js/main.js"></script>
 </body>
 </html>
