@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 const logSelfEsteem = () => {
-  let message = 'Самооценка задания\n';
+  let message = 'Самооценка задания: 150 баллов\n';
   message += '- вёрстка валидная +10\n';
   message += 'В коде страницы присутствуют семантические теги и заголовки (10 шт. по 2 балла): header, main, footer, nav, aside, section, article, h1, h2, h3\n';
   message += '- для оформления СV используются css-стили +10\n';
